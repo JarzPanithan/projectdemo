@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Project",
+    "slug": "Project",
+    "privacy": "public",
+    "sdkVersion": "34.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/AppIcon.png",
+    "splash": {
+      "image": "./assets/Loading.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#212F3D"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.yourcompany.project",
+      "supportsTablet": true,
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "com.googleusercontent.apps.405116870052-bnkooi80ee971pd8fock695jm6jdqd1e"
+        }
+      }
+    },
+    "android": {
+      "package": "com.yourcompany.project",
+      "googleServicesFile": "./google-services.json",
+      "config": {
+        "googleSignIn": {
+          "certificateHash": "EFF1CAC59C5EF0BB0DA74BEED12057A69A78FD2A"
+        }
+      }
+    }
+  }
+}
